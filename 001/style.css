@@ -1,0 +1,39 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+p {
+    font-family: "Condiment", sans-serif;
+    font-size: 0.9em;
+    padding: 10px 10px 150px 20px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(0deg, rgb(214, 190, 209), rgb(44, 16, 77), rgb(109, 33, 109));; 
+}
+
+ h1:hover {
+    color: rgb(122, 203, 209);
+}
+
+.container{ 
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50% 50%;
+    gap: 10%;
+    background-color: rgb(73, 124, 201);
+}
+
+div {
+   padding: 2em;
+}
+
+img {
+    width: 200px;
+}
